@@ -1,6 +1,6 @@
 {
-    "name": "Color picker",
-    "description": "A color picker extension",
+    "name": "Exam Tracker",
+    "description": "Tracks activity of candidate duriing exam extension",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
@@ -12,14 +12,12 @@
         "scripting",
         "tabs"
     ],
-    "options_page": "options.html",
+    "content_scripts":[
+         "matches": ["<all_urls"],
+         "js":["content.js"]
+    ],
     "action": {
         "default_popup": "popup.html"
-    },
-    "icons": {
-        "16": "/images/picker_16.png",
-        "32": "/images/picker_32.png",
-        "48": "/images/picker_48.png"
     },
     "chrome_url_overrides":{
         "newtab":"redirect.html"
