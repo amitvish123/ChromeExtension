@@ -1,6 +1,6 @@
 # ChromeExtension
 The purpose of this chrome extension is to provide user the interface to put their details and invitation code required to start the online exam conducted by elitmus.
-Basically , this extension is provided with some functionality such that it will start interacting with user directly by just clicking on it(extension). Then user will be prompted to allow the permissions of audio and video i.e. after the submission of the user details form.
+Basically , this extension is provided with some functionality such that it will start interacting with user directly by just clicking on it(extension). Then user will be prompted to allow the permissions of audio and video i.e. after the submission of the user details form. After that when candidate gives exam then his audio and video is recorded in database as screenshots.
 
 ******
 Not up to the Mark:
