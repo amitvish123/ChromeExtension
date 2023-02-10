@@ -9,3 +9,5 @@ Problem: I have created the the form for user details in "userForm.html" file wh
 ***
 Intuition behind solving the above problem(not yet solved): I have just make other web page i.e. userForm.html in browser by just using chrome_overrides Since the DOM of the web page is manipulated using content_script. But when I try to redirect the current DOM to "userForm.html" it via making "content.js" page in content_script then also it is doing nothing. 
 Since I have used the interaction between "popup.html" and the "userForm.html" by just using another file "redirect.html" which basically redirect to the new tab containing the data of "userForm.html" using meta tag refresh property. And since the "userForm.html" file is a part of DOM so my intuition says that this should again redirect to "media.html" using convetional javascript method of redirecting. But it doesnt work.
+***
+Since the frontend part is not completed so I not go for the development of backend i.e., fetching the data into the database. But I have done this type of activity previously which You can see in my git repository.
